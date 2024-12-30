@@ -1,0 +1,50 @@
+.memories-page {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f8f8f8;
+      padding: 20px;
+    }
+
+    .memories-container {
+      text-align: center;
+      max-width: 800px;
+      padding: 20px;
+    }
+
+    .memories-carousel {
+      display: flex;
+      overflow-x: auto;
+      padding: 20px 0;
+    }
+
+    .memory-item {
+      margin: 0 10px;
+      min-width: 200px;
+      text-align: center;
+    }
+
+    .memory-item img,
+    .memory-item video {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .promises-list {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .promise-item {
+      margin: 5px 0;
+      padding: 10px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      width: 80%;
+    }

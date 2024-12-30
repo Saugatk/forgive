@@ -1,0 +1,61 @@
+.sorry-sculpture-page {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f8f8f8;
+      padding: 20px;
+    }
+
+    .sculpture-container {
+      text-align: center;
+      max-width: 800px;
+      padding: 20px;
+    }
+
+    .canvas-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .sculpture-canvas {
+      border: 2px solid #ddd;
+      cursor: crosshair;
+      background-color: #f0e6d2;
+    }
+
+    .color-picker {
+      display: flex;
+      margin-top: 10px;
+    }
+
+    .color-button {
+      width: 30px;
+      height: 30px;
+      border: none;
+      border-radius: 50%;
+      margin: 0 5px;
+      cursor: pointer;
+    }
+
+    .color-button.red {
+      background-color: red;
+    }
+
+    .color-button.blue {
+      background-color: blue;
+    }
+
+    .color-button.green {
+      background-color: green;
+    }
+
+    .color-button.yellow {
+      background-color: yellow;
+    }
+
+    .color-button.purple {
+      background-color: purple;
+    }
